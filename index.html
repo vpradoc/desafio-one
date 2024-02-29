@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Challenge - Decodificador</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <section class="middle">
+      <img id="logo-alura" src="./assets/Logo.png" alt="Logo Alura" />
+
+      <textarea
+        id="caixa-entrada"
+        cols="30"
+        rows="10"
+        placeholder="Digite seu texto"></textarea>
+
+      <container class="campo-resposta">
+        <img
+          id="bg-lateral"
+          src="./assets/retangulo.png"
+          alt="Background Lateral" />
+
+        <img
+          id="bg-lateral-icone"
+          src="./assets/person.png"
+          alt="Ícone Pessoa" />
+
+        <h1 id="bg-lateral-titulo">Nenhuma mensagem encontrada</h1>
+        <h2 id="bg-lateral-texto">
+          Digite um texto que você deseja criptografar ou descriptografar.
+        </h2>
+      </container>
+
+      <container class="alerta">
+        <img
+          id="icone-alerta"
+          src="./assets/Vector.png"
+          alt="Ícone de alerta" />
+        <h1 id="texto-alerta">Apenas letras minúsculas e sem acento.</h1>
+      </container>
+
+      <container class="interacoes">
+        <a href="decode.html">
+          <button id="botao-criptografar">Criptografar</button>
+          <button id="botao-descriptografar">Descriptografar</button>
+        </a>
+      </container>
+    </section>
+  </body>
+</html>
